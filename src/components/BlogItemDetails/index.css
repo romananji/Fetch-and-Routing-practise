@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.author-infoo {
+  display: flex;
+  align-items: center;
+}
+.avatar-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.title-heading {
+  text-align: center;
+}
+.blog-item-image {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+.blog-item-details-container {
+  width: 660px;
+}
+@media screen and (max-width:768px){
+  .blog-item-details-container{
+    width: 90%;
+    margin: auto;
+  }
+}

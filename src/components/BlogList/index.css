@@ -1,0 +1,5 @@
+/* Write your CSS code here */
+.blog-data-container {
+  display: flex;
+  flex-direction: column;
+}
